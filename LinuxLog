@@ -1,0 +1,13 @@
+1.sudo apt-get --purge remove fcitx		// remove some soft as root property
+
+2.su						// change user to root by input password
+
+3.sudo passwd					//change password for current user
+
+4.display *xx*.jpg
+
+5.update wifi drivers
+
+6.ps -e  					//loop process from system
+
+7.dpkg -l 					//loop software by aptt-get install
