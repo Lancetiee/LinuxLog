@@ -11,3 +11,5 @@
 6.ps -e  					//loop process from system
 
 7.dpkg -l 					//loop software by aptt-get install
+
+8.test LinuxLog
