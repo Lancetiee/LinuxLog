@@ -12,4 +12,24 @@
 
 7.dpkg -l 					//loop software by aptt-get install
 
-8.test LinuxLog
+8.cat filename					//show the file content to current teminal
+
+9.rm filename					//delete file by filename at current directory
+
+Git:
+	1.git config --global user.name "ZhangYeBai"		//set current username for local git
+	2.git config --global user.email "kaka129511@126.com"	//set current email for local git
+	3.mkdir directoryname					//create a directory at current directory by the name you given
+	4.git init						//create a git workspace at current directory
+	5.git add filename					//add the file to git cache
+	6.git commit -m "commit log"				//commit the file or directory you added, and add "commit log" to the log bind to the file you commit
+	7.git status 						//loop the status of git 
+	8.git diff filename					//loop the file differences between the current file and the file you commited
+	9.git reset HEAD^					//version back one step, HEAD^^->back two steps, or HEAD~100->back 100 steps
+	10.git checkout -- filename				//chexiao xiu gai 
+	11.git rm filename					//delete file from git workspace
+	12.ssh-keygen -t rsa -C "kaka129511@126.com"		//create a rsa encrypt key
+	13.git remote add origin git@github.com:Lancetiee/LinuxLog.git	// add local git workspace to github
+	14.git push -u origin master				//push files and directorys to github
+	15.git clone git@github.com:Lancetiee/LinuxLog.git	//clone project from github to local
+	16.git checkout -b dev					//create a brench "dev" at current, "-b" is switch to dev from current
